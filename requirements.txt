@@ -1,0 +1,5 @@
+selenium==4.2.0
+robotframework==5.0.1
+robotframework-pabot==2.18.0
+robotframework-seleniumlibrary==6.1.0
+PyYAML==6.0.2

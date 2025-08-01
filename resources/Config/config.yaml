@@ -1,0 +1,4 @@
+chrome_path: C:\\Users\\Asus\\Desktop\\Girish_Python_Practice\\Ram_Fincorp\\chromedriver.exe
+
+application_url: https://www.saucedemo.com
+inventory_page_url: /inventory.html

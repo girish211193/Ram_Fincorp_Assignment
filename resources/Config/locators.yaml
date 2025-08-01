@@ -1,0 +1,28 @@
+# Common Locator
+textarea_input_field: 'xpath: //input[@placeholder=''%s'']'
+
+# Login Page
+textarea_username: 'xpath: //input[@id=''user-name'']'
+textarea_password: 'xpath: //input[@id=''password'']'
+
+# Inventory Page
+btn_login: 'xpath: //input[@id=''login-button'']'
+btn_add_to_cart: 'xpath: //div[text()=''%s'']/ancestor::div[@class=''inventory_item_description'']//button[text()=''Add to cart'']'
+icon_cart: 'xpath: //a[@class=''shopping_cart_link'']'
+hamburger_menu: 'xpath: //button[text()=''Open Menu'']'
+btn_sidebar_logout: 'xpath: //a[@id=''logout_sidebar_link'']'
+
+# Cart Page
+text_item_name: 'xpath: //div[@class=''inventory_item_name'' and text()=''%s'']'
+text_item_quantity: 'xpath: //div[@class=''inventory_item_name'' and text()=''%s'']/ancestor::div[@class=''cart_item'']/div[@class=''cart_quantity'' and text()=''%s'']'
+btn_checkout: 'xpath: //button[@id=''checkout'']'
+
+#Checkout Info Page
+btn_continue: 'xpath: //input[@id=''continue'']'
+
+#Checkout Overview Page
+btn_finish: 'xpath: //input[@id=''finish'']'
+text_prize: 'xpath: //div[@class=''summary_info'']//div[contains(text(), ''%s'')]/text()[2]'
+
+#Checkout Complete Page
+btn_back_home: 'xpath: //input[@id=''back-to-products'']'

@@ -1,0 +1,4 @@
+timeout_20: 20
+username: standard_user
+password: secret_sauce
+inventory_page_title: Swag Labs
